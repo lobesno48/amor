@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #afffee;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos en los extremos */
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: #afffee;
+    color: #000000;
+    padding: 1em;
+}
+
+header h1 {
+    margin: 0; /* Elimina el margen por defecto de <h1> */
+}
+
+.header-img {
+    width: 100px; /* Puedes ajustar el tamaño de la imagen */
+    height: auto;
+    border-radius: 8px;
+}
+
+
+footer {
+    background-color: #e64949;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    padding: 20px;
+}
+
+h2 {
+    color: #20533e;
+}
+
+h1 {
+    color: #505a26;
+}
+
+h3 {
+    color: #000000;
+}
+
+p {
+    line-height: 1.6;
+}
+
+img {
+    width: 30%;
+
+}
